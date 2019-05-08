@@ -5,7 +5,6 @@ python:
 install:
 - pip install --upgrade pip
 - pip install pipenv
-- pipenv sync
 script:
 - pipenv run ./update.py
 env:
